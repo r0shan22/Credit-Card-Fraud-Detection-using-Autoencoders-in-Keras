@@ -31,7 +31,7 @@ The following Python libraries are required:
 
 •	scipy
 # Dataset
-The dataset used is a credit card transaction dataset stored at: C:\Users\yrosh\Documents\creditcard.csv
+The dataset used is a credit card transaction dataset stored in **Data** folder
 # Dataset Columns:
 •	Time: The time elapsed since the first transaction.
 
