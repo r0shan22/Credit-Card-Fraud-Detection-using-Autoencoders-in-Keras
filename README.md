@@ -43,15 +43,15 @@ The dataset used is a credit card transaction dataset stored at: C:\Users\yrosh\
 
 2.	Load and Explore Dataset
 
-  o	Load the dataset using pandas.
+      o	Load the dataset using pandas.
 
-  o	Check for missing values and inspect the distribution of the Class column.
+      o	Check for missing values and inspect the distribution of the Class column.
 
 3.	Data Visualization
 
-  o	Visualize transaction class distribution.
+      o	Visualize transaction class distribution.
 
-  o	Plot histograms for transaction amounts and scatter plots for time vs. amount by class.
+      o	Plot histograms for transaction amounts and scatter plots for time vs. amount by class.
 
 4.	Data Preprocessing
 
