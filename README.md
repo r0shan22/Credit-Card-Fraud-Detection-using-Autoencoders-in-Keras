@@ -82,13 +82,16 @@ The dataset used is a credit card transaction dataset stored at: C:\Users\yrosh\
 •	Model Performance: The Autoencoder successfully identified fraud based on reconstruction errors.
 
 •	Visual Outputs:
-        o	Transaction class distribution.
-        
-        o	Reconstruction error distributions.
-        
-        o	ROC curve and Precision-Recall curve.
 
-  o	Confusion matrix.
+o	Transaction class distribution.
+
+o	Reconstruction error distributions.
+
+o	ROC curve and Precision-Recall curve.
+
+o	Confusion matrix.
+
+
 # Key Files
 •	Model Checkpoints: model.keras
 
