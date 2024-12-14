@@ -7,24 +7,41 @@ This project demonstrates the use of a Deep Autoencoder, implemented in Keras, t
 **Features**
 #
 •	Preprocessing of credit card transaction data.
+
 •	Visualization of data distributions.
+
 •	Implementation of a Deep Autoencoder for anomaly detection.
+
 •	Evaluation of model performance using metrics like ROC-AUC and Precision-Recall.
+
 •	Graphical representation of results, including confusion matrix, ROC curve, and reconstruction errors.
+
 **Requirements**
 #
+
 The following Python libraries are required:
+
 •	pandas
+
 •	numpy
+
 •	matplotlib
+
 •	seaborn
+
 •	sklearn
+
 •	tensorflow
+
 •	keras
+
 •	scipy
+
 **Dataset**
+
 Data availabe in **Data** Folder
 #
+
 **Dataset Columns:**
 •	Time: The time elapsed since the first transaction.
 •	Amount: The transaction amount.
