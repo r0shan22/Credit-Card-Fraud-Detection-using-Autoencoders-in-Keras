@@ -55,39 +55,38 @@ The dataset used is a credit card transaction dataset stored at: C:\Users\yrosh\
 
 4.	Data Preprocessing
 
-  o	Normalize the Amount column using StandardScaler.
+  	o	Normalize the Amount column using StandardScaler.
 
-  o	Drop the Time column.
+      o	Drop the Time column.
 
-  o	Split the dataset into training (normal transactions) and testing sets.
+      o	Split the dataset into training (normal transactions) and testing sets.
 
 5.	Model Implementation
 
-  o	Define the Autoencoder architecture with encoding and decoding layers.
+      o	Define the Autoencoder architecture with encoding and decoding layers.
 
-  o	Use the mean squared error as the loss function.
+      o	Use the mean squared error as the loss function.
 
-  o	Save the best model using ModelCheckpoint.
+      o	Save the best model using ModelCheckpoint.
 
 6.	Training Train the Autoencoder on normal transactions and validate it on the test set.
 
 7.	Evaluation
 
-  o	Analyze reconstruction errors to identify fraudulent transactions.
+      o	Analyze reconstruction errors to identify fraudulent transactions.
 
-  o	Visualize ROC curve, Precision-Recall curve, and reconstruction errors.
+      o	Visualize ROC curve, Precision-Recall curve, and reconstruction errors.
 
-  o	Calculate the confusion matrix and evaluate performance metrics.
+      o	Calculate the confusion matrix and evaluate performance metrics.
 # Results
 •	Model Performance: The Autoencoder successfully identified fraud based on reconstruction errors.
 
 •	Visual Outputs:
-
-  o	Transaction class distribution.
-
-  o	Reconstruction error distributions.
-
-  o	ROC curve and Precision-Recall curve.
+        o	Transaction class distribution.
+        
+        o	Reconstruction error distributions.
+        
+        o	ROC curve and Precision-Recall curve.
 
   o	Confusion matrix.
 # Key Files
